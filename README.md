@@ -9,3 +9,8 @@ git commit -m 'Название коммита' - Внутри кавычек к
 
 git push -u origin master - так загружаем все изменения на репозиторий
 
+git checkout -b branch_name - так создаем ветку и переходим по нему
+
+git checkout branch_name - простой переходи от ветки к ветке
+
+
