@@ -14,3 +14,14 @@ git checkout -b branch_name - так создаем ветку и переход
 git checkout branch_name - простой переходи от ветки к ветке
 
 
+Порядок при ребейзе
+======
+git add .
+git commit -m 'commit'
+git checkout master
+git pull
+git checkout YOUR_BRANCH
+git rebase
+git push -f
+
+
