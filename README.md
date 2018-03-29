@@ -17,11 +17,17 @@ git checkout branch_name - простой переходи от ветки к в
 Порядок при ребейзе
 ======
 git add .
+
 git commit -m 'commit'
+
 git checkout master
+
 git pull
+
 git checkout YOUR_BRANCH
+
 git rebase
+
 git push -f
 
 
